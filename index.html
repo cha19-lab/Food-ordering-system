@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe STI - Food Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="greeting">
+            <p>Good day,</p>
+            <h1>Juan 👋</h1>
+        </div>
+
+        <button class="notification">🔔<span>2</span></button>
+
+        <input type="search" id="search"
+               placeholder="🔍 Search food, drinks, promos...">
+    </header>
+
+    <main class="container">
+
+        <nav class="categories">
+            <button class="active" data-category="All">All</button>
+            <button data-category="Combo Meals">Combo Meals</button>
+            <button data-category="Desserts">Desserts</button>
+            <button data-category="Drinks">🥤 Drinks</button>
+        </nav>
+
+        <section class="food-grid">
+
+            <article class="food-card" data-category="All">
+                <img src="images/burger-fries.png"
+                     alt="Classic Burger and Fries">
+                <div class="food-info">
+                    <h3>Classic Burger + Fries</h3>
+                    <div class="details">
+                        <strong>₱89</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="All">
+                <img src="images/double-burger.png"
+                     alt="Double Smash Burger Meal">
+                <div class="food-info">
+                    <h3>Double Smash Burger Meal</h3>
+                    <div class="details">
+                        <strong>₱115</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="All">
+                <img src="images/pork-adobo.png"
+                     alt="Pork Adobo with Rice">
+                <div class="food-info">
+                    <h3>Pork Adobo + Rice</h3>
+                    <div class="details">
+                        <strong>₱75</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="All">
+                <img src="images/beef-steak.png"
+                     alt="Beef Steak Meal">
+                <div class="food-info">
+                    <h3>Beef Steak (Bistek) Meal</h3>
+                    <div class="details">
+                        <strong>₱120</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>
+            <article class="food-card" data-category="All">
+                <img src="images/crispy-fries.png"
+                     alt="Crispy Fries">
+                <div class="food-info">
+                    <h3>Crispy Fries</h3>
+                    <div class="details">
+                        <strong>₱45</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="All">
+                <img src="images/chicken-adobo.png"
+                     alt="Chicken Adobo with Rice">
+                <div class="food-info">
+                    <h3>Chicken Adobo + Rice</h3>
+                    <div class="details">
+                        <strong>₱70</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="food-card" data-category="All">
+                <img src="images/ice coffee.png"
+                     alt="Ice Coffee">
+                <div class="food-info">
+                    <h3>Ice Coffee</h3>
+                    <div class="details">
+                        <strong>₱40</strong>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </article>      
+
+        </section>
+    </main>
+
+    <footer class="bottom-nav">
+        <a href="#" class="selected">🏠<span>Home</span></a>
+        <a href="#">🛒<span>Cart</span></a>
+        <a href="#">📋<span>Orders</span></a>
+        <a href="#">🔔<span>Alerts</span></a>
+        <a href="#">👤<span>Profile</span></a>
+    </footer>
+
+</body>
+</html>
